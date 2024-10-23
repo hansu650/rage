@@ -17,3 +17,5 @@
 
 - notes: type in markdown file
 - toolbox: write on ipad and export as pdf
+
+$$ E = mc^2 $$ 

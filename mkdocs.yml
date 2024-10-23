@@ -60,3 +60,4 @@ plugins:
   - minify:
       minify_css: true
       minify_js: true
+  - mathjax
