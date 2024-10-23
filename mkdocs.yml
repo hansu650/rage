@@ -15,7 +15,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: light)"
       scheme: slate
       primary: indigo
       accent: blue grey
