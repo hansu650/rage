@@ -1,71 +1,24 @@
-# *function*
+# 函数的连续性
 <!--
 \[
 \begin{align}
 \end{align}
 \]
 -->
-## equivalent infinitesimal
-### defination
-$$
-\lim_{x \to x_0} \frac {f(x)} {g(x)} = 1
-$$
-
-### properties
-\[
-\begin{align}
-\lim_{x \to x_0} f(x)h(x) &= \lim_{x \to x_0} g(x)h(x) \\
-\lim_{x \to x_0} \frac {f(x)} {h(x)} &= \lim_{x \to x_0} \frac {g(x)} {h(x)}
-\end{align}
-\]
-
-### example
-\[
-\begin{align}
-(1+x)^n &\sim nx+1 \\
-sin(x) &\sim x
-\end{align}
-\]
-
-where $x \mapsto 0$
-
-## Landau symbols
-### defination
-$$
-|f(x)| \le M|g(x)|
-$$
-
-then $f(x) = O (g(x))$
-
-### explanation
-Big O notation means that sometimes(for an infinite quantity) we don't care about the accurate function, but how rapidly it grows
-Whether it can be controlled by $x$, $log x$ or $e^x$
-Small O notation means that f(x) is much more smaller than g(x) when approaching to $x_0$
-Why do we define it? Aadditivity&multiplicity
-
-### properties
-
-## Upper limit & Lower limit
+## 函数的极限
 ### Defination
-\[
-\begin{align}
-\exists \ x_n ,\  x_n \to x_0  \\
-s.t. f(x_n) \to \alpha \\
-then \ \ E = \{x| x=\alpha \} \\
-limsup_{x \to x_0} = supE \\
-liminf_{x \to x_0} = infE
-\end{align}
-\]
+$\forall \varepsilon > 0, \exists \delta > 0,$使得对$x \in \check{N}_{\delta}(x_0)$,都有$|f(x) - A | < \varepsilon$
 
-### Properties
-$$
-supE \in E
-$$
+$记作\lim_{x \to x_0}f(x) = A$
 
-In other words, the upper limit is the biggist limit point
+### Heine归结原理
+$\lim_{x \to x_0}f(x) = A$等价于$\forall x_n: \lim_{n \to \infty} x_n = x_0, \lim_{n \to \infty} x_n = A$
 
-$$
-E = \{\alpha: \forall \varepsilon ,\exists \delta \ s.t. x \in N_{\delta}(x_0), f(x) < \alpha + \varepsilon \}
-$$
+注意，它们都要在$\check{N}_{\delta}(x_0)$有定义
 
-then $infE = \limsup_{x \to x_0} f(x)$
+### 极限的四则运算
+### 极限的夹逼定理
+
+![Alt text](</rage/image/函数极限方法.png>)
+![Alt text](</rage/image/函数极限.png>)
+![Alt text](</rage/image/函数连续.png>)
