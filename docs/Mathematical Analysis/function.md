@@ -22,3 +22,4 @@ $\lim_{x \to x_0}f(x) = A$等价于$\forall x_n: \lim_{n \to \infty} x_n = x_0, 
 ![Alt text](</rage/image/函数极限方法.png>)
 ![Alt text](</rage/image/函数极限.png>)
 ![Alt text](</rage/image/函数连续.png>)
+
